@@ -1,0 +1,27 @@
+include("IntFloat.jl")
+include("Rational.jl")
+
+# (5 + 3.5) * 1.7 / 2 - 0.1 = 7.125
+enter(Integer("5"))
+enter(Float("3.5"))
+Add()
+enter(Float("1.7"))
+Mult()
+enter(Integer("2"))
+Div()
+enter(Float("0.1"))
+Sub()
+
+clear()
+println("===== clear =====")
+
+# ( (2/3) + 1 - (1/4) ) * 1.5 / 2 = (17/16)
+enter(Rational("2/3"))
+enter(Integer("1"))
+Add()
+enter(Rational("1/4"))
+Sub()
+enter(Float("1.5"))
+Mult()
+enter(Integer("2"))
+Div()
