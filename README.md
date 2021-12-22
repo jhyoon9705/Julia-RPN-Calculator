@@ -1,3 +1,3 @@
-# OO-RPN-Calculator
+# Julia-RPN-Calculator
 
-### Object-Oriented Reverse-Polish-Notation Calculator
+### Julia Reverse-Polish-Notation Calculator
